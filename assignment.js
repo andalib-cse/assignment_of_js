@@ -7,11 +7,9 @@ function kilometerToMeter(km) {
     if( km >= 0){
         return meter * km
     }else{
-        return "Destance cannot be negative."
+        return "Destance cannot be negative value."
     }
 }
-
-
 
 
 // Problem number 2
@@ -27,9 +25,11 @@ function budgetCalculator(watch, phone, laptop) {
         var allTotalPrice = totalWatchPrice + totalPhonePrice + totalLaptopPrice;
         return allTotalPrice;
     } else {
-        return "Give Valid Number."
+        return "Please Give Valid Numbers."
     }
 }
+
+
 
 
 
@@ -80,3 +80,4 @@ function megaFriend(friendsName) {
         return friendsName[index];
     }
 }
+
